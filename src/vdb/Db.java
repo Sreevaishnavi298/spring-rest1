@@ -2,6 +2,7 @@ package vdb;
 import java.sql.*;
 public class Db {
 public static synchronized  Connection connect()
+//this is connection
 	{
 		Connection con=null;
 		try{
